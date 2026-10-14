@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy — Dev Inspector</title>
+  <meta name="description" content="Local processing, recent files, clipboard behavior and the current privacy boundaries of Dev Inspector.">
+  <meta property="og:title" content="Privacy — Dev Inspector">
+  <meta property="og:description" content="Local processing, recent files, clipboard behavior and the current privacy boundaries of Dev Inspector.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dev Inspector">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="index.html"><img src="assets/images/app-icon.png" width="36" height="36" alt=""><span>Dev Inspector</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#features">Features</a><a href="privacy.html" aria-current="page">Privacy</a><a href="faq.html">FAQ</a><a href="support.html">Support</a><a href="download.html">Download</a></nav>
+  </div></header>
+  <main id="main" tabindex="-1"><div class="shell reading-page"><div class="page-heading"><p class="eyebrow">Privacy</p><h1>Your files stay on your Mac.</h1><p>How the current app and this static website handle data. This describes current behavior, not a promise about every future version.</p></div><section><h2>Local file processing</h2><p>Dev Inspector processes inspected files locally on your Mac. The app does not upload inspected files or file contents. Inspection does not require a network connection. Read-only inspection does not modify inspected source files.</p></section><section><h2>Accounts, analytics and crash reporting</h2><p>No account is required. No analytics SDK or third-party crash reporting service is included in the app. macOS may provide its own system diagnostics under your system settings; those are separate from Dev Inspector.</p></section><section><h2>Recent files</h2><p>If enabled, recent file metadata is stored locally in app preferences: file paths, detected types and opening times. The app does not copy inspected files into history. You can disable new history in Settings and use Clear Recent Files to remove saved history. Disabling history alone does not clear existing entries.</p></section><section><h2>Trial and offline License verification</h2><p>The app stores local Trial state in its own macOS Keychain item and a local Application Support file. The 14-day Trial starts after the first successful inspection of a supported file. Imported signed License data is stored locally and verified offline using a public key. License verification does not require an account or send inspected files, license contents or device identifiers to a server.</p></section><section><h2>Clipboard</h2><p>Copy actions place selected data into the macOS clipboard. Treat copied certificate, profile or file information with the same care as the source. Clipboard managers and other software are outside the app’s control.</p></section><section><h2>Updates</h2><p>Automatic updates are not currently implemented. The app does not check for updates in the background.</p></section><section><h2>This website</h2><p>This static website includes no analytics scripts, tracking pixels, cookies, account system or contact form. It uses local images and system fonts. The planned hosting service is GitHub Pages. GitHub logs visitor IP addresses for security, separately from this website’s own code. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Website requests are separate from inspecting files in the Mac app.</p></section><section><h2>Questions</h2><p>For product support, email <a href="mailto:dragon_kang_app@163.com">dragon_kang_app@163.com</a>. See the <a href="support.html">Support page</a> for how to prepare a sanitized report. If you choose to email support, your email provider and our support mailbox handle the sender address, message and attachments. Send only information you choose to share, and sanitize it first. Do not email private keys or License files.</p></section></div></main>
+  <footer class="site-footer"><div class="shell footer-inner"><div><strong>Dev Inspector</strong><p>© 2026 Dev Inspector</p></div><nav aria-label="Footer navigation"><a href="privacy.html">Privacy</a><a href="faq.html">FAQ</a><a href="support.html">Support</a><a href="download.html">Download</a></nav><p class="footer-note">Public beta preparation · <a href="mailto:dragon_kang_app@163.com">dragon_kang_app@163.com</a></p></div></footer>
+</body>
+</html>
